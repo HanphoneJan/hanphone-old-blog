@@ -1,0 +1,210 @@
+html {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-display: optional;
+  font-family: "Noto Serif SC", "Songti SC", SimSun, "STSong", "Times New Roman", serif;
+  color: #f1ebeb;
+  font-weight: 600;
+  background: url("../../static/images/compress-dawngirl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 100%;
+  background-attachment: fixed;
+
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar {
+  font-size: 2rem;
+  margin: 0 auto;
+  background-attachment: fixed;
+  background-color: rgba(129, 75, 245, 0);
+
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+}
+
+.navbar-nav a {
+  padding: 1% 3% 0 1%;
+  text-decoration: none;
+  color: white;
+}
+
+#personalCard {
+  background-color: rgba(246, 169, 117, 0.6);
+  border-radius: 4%;
+  margin-top: 4rem;
+  margin-left: 2%;
+  margin-right: 4%;
+  font-size: 1.5rem;
+  height: 100%;
+}
+
+.cardwrapper {
+  display: block;
+  margin: 0 auto;
+}
+
+#personalCard img {
+  border-radius: 50%;
+  width: 10rem;
+  margin: 1rem auto 0;
+}
+
+#personalCard a {
+  display: block;
+  cursor: pointer;
+  line-height: 1em;
+
+}
+
+.social {
+  margin-top: 1.5rem;
+}
+
+#personalCard h4 {
+  margin-bottom: 0.1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+#personalCard p {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+}
+
+#personalCard p img {
+  border-radius: 50%;
+  width: 2rem;
+  margin: 0 0.5rem 0 0;
+}
+
+.postwrapper {
+  background-color: rgba(246, 169, 117, 0.8);
+  border-radius: 1%;
+  margin-top: 4rem;
+  font-size: 2rem;
+  height: 100%;
+  padding: 0;
+}
+
+.postIntro img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  border-radius: 2%;
+}
+
+.postwrapper h1 {
+  display: block;
+  font-weight: 900;
+  margin-left: 0.3rem;
+  font-size: 4rem;
+}
+
+.postwrapper .post {
+  background-color: rgba(200, 132, 132, 0.746);
+  border-radius: 2%;
+  margin-top: 2rem;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.post h3 {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  font-size: 3rem;
+}
+
+.post h5 {
+  display: inline-block;
+  font-size: 1.6rem;
+}
+
+.post p {
+  text-indent: 4rem;
+  font-size: 2.2rem;
+  line-height: 3rem;
+}
+
+.otherWrapper {
+  background-color: rgba(246, 169, 117, 0.7);
+  border-radius: 10%;
+  margin-top: 4rem;
+  margin-left: 4%;
+  font-size: 2rem;
+}
+
+.otherWrapper h2 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.otherWrapper ul {
+  padding-left: 1rem;
+}
+
+.otherWrapper p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+  #personalCard {
+    width: 92%;
+    margin: 2rem 4%;
+  }
+
+
+  .social {
+    margin-top: 2rem;
+  }
+
+  .postwrapper {
+    width: 92%;
+    margin: 2rem 4%;
+  }
+
+  .postIntro img {
+    height: 15rem;
+  }
+
+  .postwrapper h1 {
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+
+  .post h3 {
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  .post h5 {
+    font-size: 0.8rem;
+  }
+
+  .post p {
+    text-indent: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .otherWrapper {
+    width: 92%;
+    margin: 2rem 4%;
+  }
+}
