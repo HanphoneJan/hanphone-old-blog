@@ -24,8 +24,8 @@ let atlaspic = [
     num: 810
   },
   {
-    href: 'https://www.hanphone.top/material/blog/atlasshow/chengdunight.jpg',
-    src: 'https://www.hanphone.top/material/blog/atlasshow/chengdunight.jpg',
+    href: '../static/images/chengdunight.jpg',
+    src: '../static/images/chengdunight.jpg',
     title: '成都的夜晚',
     num: 810
   },
@@ -62,8 +62,8 @@ let atlaspic = [
     num: 810
   },
   {
-    href: 'http://hanphone.top/blog/autumn.jpg',
-    src: 'http://hanphone.top/blog/autumn.jpg',
+    href: '../static/images//autumn.jpg',
+    src: '../static/images//autumn.jpg',
     title: '秋日',
     num: 810
   },
