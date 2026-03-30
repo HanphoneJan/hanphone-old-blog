@@ -6,14 +6,14 @@ let atlaspic = [
     num: 1145
   },
   {
-    href: 'https://www.hanphone.top/material/blog/atlasshow/moonyinxing.jpg',
-    src: 'https://www.hanphone.top/material/blog/atlasshow/moonyinxing.jpg',
+    href: '../static/images/compress-moonyinxing.jpg',
+    src: '../static/images/compress-moonyinxing.jpg',
     title: '月亮与银杏大道',
     num: 14
   },
   {
-    href: 'https://www.hanphone.top/material/blog/atlasshow/schoolroad.jpg',
-    src: 'https://www.hanphone.top/material/blog/atlasshow/schoolroad.jpg',
+    href: '../static/images/schoolroad.jpg',
+    src: '../static/images/schoolroad.jpg',
     title: '校园小路',
     num: 1919
   },
@@ -24,8 +24,8 @@ let atlaspic = [
     num: 810
   },
   {
-    href: '../static/images/chengdunight.jpg',
-    src: '../static/images/chengdunight.jpg',
+    href: '../static/images/compress-chengdunight.jpg',
+    src: '../static/images/compress-chengdunight.jpg',
     title: '成都的夜晚',
     num: 810
   },
@@ -62,8 +62,8 @@ let atlaspic = [
     num: 810
   },
   {
-    href: '../static/images//autumn.jpg',
-    src: '../static/images//autumn.jpg',
+    href: '../static/images/compress-autumn.jpg',
+    src: '../static/images/compress-autumn.jpg',
     title: '秋日',
     num: 810
   },
